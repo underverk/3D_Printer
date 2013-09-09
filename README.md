@@ -9,4 +9,4 @@ It's a mashup of parts from:
 *   [The extruder is based on Misan version of the compact extruder](http://www.thingiverse.com/thing:100982)  
 *   [The frame is based on Shane grabers Laser Cut Wood frame](https://github.com/sgraber/Prusa3_LC)  
 *   [And x-carriage was inspired by Shane grabers Graber printer](https://github.com/sgraber/Graber)  
-*   [A modified version of thid y-motor-mount](http://www.thingiverse.com/thing:85809)
+*   [A modified version of this y-motor-mount](http://www.thingiverse.com/thing:85809)
