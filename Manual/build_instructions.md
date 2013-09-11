@@ -14,6 +14,8 @@ Parts needed
 | M10 Nuts      | -             | Nuts     |     8 |
 | M10 Washer    | -             | Washers  |     4 |
 
+Thread the washers first, two of them. Then 
+
 1.2
 
 
