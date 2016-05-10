@@ -1,7 +1,7 @@
 3D_Printer
 ==========
 
-Underverk's 3D printer is a fork of a wooden Prusa i3 made by Arduino Verkstad for the 3D printing workshops to be held at FBRKN, STPLN, Malmo, Sweden. It's playfully called the "i3 AV Remix"
+Underverk's 3D printer is a fork of a wooden Prusa i3 made by Arduino LLC for the 3D printing workshops to be held at FBRKN, STPLN, Malmo, Sweden. It's playfully called the "i3 AV Remix"
 
 It's a mashup of parts from:  
 *   [Modified Parts from the EiNSTeiN branch](https://github.com/EiNSTeiN-/Prusa3)  
