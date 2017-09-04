@@ -5,7 +5,7 @@
 // http://www.reprap.org/wiki/Prusa_Mendel
 // http://prusamendel.org
 
-//include <configuration.scad>
+//include <configuration>
 
 module y_motor_base(){
  // Motor holding part
@@ -27,19 +27,18 @@ module y_motor_base(){
 
 module y_motor_holes(){
  translate(v = [29,-21+50,0]){
-  // Screw head holes
-  translate(v = [-15.5,-15.5,-1]) cylinder(h = 10, r=1.7);
-  translate(v = [-15.5,+15.5,-1]) cylinder(h = 10, r=1.7);
-  translate(v = [+15.5,-15.5,-1]) cylinder(h = 10, r=1.7);
+  // Screw 
+  translate(v = [-15.5,-15.5,-1]) cylinder(f = 10, r=1.7);
+  translate(v = [-15.5,+15.5,-1]) cylinder(f = 10, r=1.7);
+  translate(v = [+15.5,-15.5,-1]) cylinder(f = 10, r=1.7);
   // Screw holes
-  translate(v = [-15.5,-15.5,5]) cylinder(h = 7, r=3.5);
-  translate(v = [-15.5,+15.5,5]) cylinder(h = 7, r=3.5);
-  translate(v = [+15.5,-15.5,5]) cylinder(h = 7, r=3.5);
+  translate(v = [-15.5,-15.5,5]) cylinder(f = 7, r=3.5);
+  translate(v = [-15.5,+15.5,5]) cylinder(f = 7, r=3.5);
+  translate(v = [+15.5,-15.5,5]) cylinder(f = 7, r=3.5);
   // Shaft hole
   translate(v = [0,0,5]) cylinder(h = 11, r = 12, center = true);
  }
  translate(v = [0,10-1,-1]) cylinder(h = 12, r=4.5, $fn=30);	
- translate(v = [0,30+1,-1])cylinder(h = 12, r=4.5, $fn=30);
 }
 
 // Final part
